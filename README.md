@@ -36,7 +36,7 @@ The analysis followed these steps:
 
 ## Summary of Models
 
-The analysis evaluated KMeans and Agglomerative Clustering (ward, complete, average, single linkages) for segmenting shoppers from non-shoppers. KMeans identified 1,440 shoppers (75.5% of 1,908 true shoppers) and 5,744 non-shoppers, achieving a balanced cluster ratio (1:4 vs. dataset’s 1:5.5). Agglomerative Clustering with ward and average linkages grouped 1,905 shoppers (99.8%) into one cluster but with high imbalance (94.3% of sessions), while complete linkage identified 1,360 shoppers (71.3%) with better balance but lower accuracy. Single linkage was ineffective, assigning 99.99% of sessions (1,908 shoppers, 10,421 non-shoppers) to one cluster. KMeans outperformed Agglomerative Clustering variations by providing more balanced and effective segmentation, leveraging its simplicity to better handle class imbalance.
+The analysis evaluated KMeans and Agglomerative Clustering (ward, complete, average, single linkages) for segmenting shoppers from non-shoppers. KMeans identified 1,440 shoppers (75.5% of 1,908 true shoppers) and 5,744 non-shoppers, achieving a balanced cluster ratio. Agglomerative Clustering with ward and average linkages grouped 1,905 shoppers (99.8%) into one cluster but with high imbalance (94.3% of sessions), while complete linkage identified 1,360 shoppers (71.3%) with better balance but lower accuracy. Single linkage was ineffective, assigning 99.99% of sessions (1,908 shoppers, 10,421 non-shoppers) to one cluster. KMeans outperformed Agglomerative Clustering variations by providing more balanced and effective segmentation, leveraging its simplicity to better handle class imbalance.
 
 ## Key Findings
 
